@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/home/venkad/dsaProject/build",
+  "command": "/usr/bin/c++ -I/home/venkad/dsaProject/include -lm -lGL -lGLU -lglut -g -o CMakeFiles/Collision.dir/main.cpp.o -c /home/venkad/dsaProject/main.cpp",
+  "file": "/home/venkad/dsaProject/main.cpp"
+},
+{
+  "directory": "/home/venkad/dsaProject/build",
+  "command": "/usr/bin/c++ -I/home/venkad/dsaProject/include -lm -lGL -lGLU -lglut -g -o CMakeFiles/Collision.dir/src/vector.cpp.o -c /home/venkad/dsaProject/src/vector.cpp",
+  "file": "/home/venkad/dsaProject/src/vector.cpp"
+},
+{
+  "directory": "/home/venkad/dsaProject/build",
+  "command": "/usr/bin/c++ -I/home/venkad/dsaProject/include -lm -lGL -lGLU -lglut -g -o CMakeFiles/Collision.dir/src/points.cpp.o -c /home/venkad/dsaProject/src/points.cpp",
+  "file": "/home/venkad/dsaProject/src/points.cpp"
+},
+{
+  "directory": "/home/venkad/dsaProject/build",
+  "command": "/usr/bin/c++ -I/home/venkad/dsaProject/include -lm -lGL -lGLU -lglut -g -o CMakeFiles/Collision.dir/src/sphere.cpp.o -c /home/venkad/dsaProject/src/sphere.cpp",
+  "file": "/home/venkad/dsaProject/src/sphere.cpp"
+},
+{
+  "directory": "/home/venkad/dsaProject/build",
+  "command": "/usr/bin/c++ -I/home/venkad/dsaProject/include -lm -lGL -lGLU -lglut -g -o CMakeFiles/Collision.dir/src/bruteforce.cpp.o -c /home/venkad/dsaProject/src/bruteforce.cpp",
+  "file": "/home/venkad/dsaProject/src/bruteforce.cpp"
+},
+{
+  "directory": "/home/venkad/dsaProject/build",
+  "command": "/usr/bin/c++ -I/home/venkad/dsaProject/include -lm -lGL -lGLU -lglut -g -o CMakeFiles/Collision.dir/src/kdtree.cpp.o -c /home/venkad/dsaProject/src/kdtree.cpp",
+  "file": "/home/venkad/dsaProject/src/kdtree.cpp"
+},
+{
+  "directory": "/home/venkad/dsaProject/build",
+  "command": "/usr/bin/c++ -I/home/venkad/dsaProject/include -lm -lGL -lGLU -lglut -g -o CMakeFiles/Collision.dir/src/looseocttree.cpp.o -c /home/venkad/dsaProject/src/looseocttree.cpp",
+  "file": "/home/venkad/dsaProject/src/looseocttree.cpp"
+},
+{
+  "directory": "/home/venkad/dsaProject/build",
+  "command": "/usr/bin/c++ -I/home/venkad/dsaProject/include -lm -lGL -lGLU -lglut -g -o CMakeFiles/Collision.dir/src/octtree.cpp.o -c /home/venkad/dsaProject/src/octtree.cpp",
+  "file": "/home/venkad/dsaProject/src/octtree.cpp"
+}
+]

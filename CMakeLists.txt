@@ -6,4 +6,4 @@ project(Collision)
 
 include_directories("include/")
 
-add_executable(${PROJECT_NAME} "main.cpp" "src/vector.cpp" "src/points.cpp" "src/sphere.cpp" "src/bruteforce.cpp")
+add_executable(${PROJECT_NAME} "main.cpp" "src/vector.cpp" "src/points.cpp" "src/sphere.cpp" "src/bruteforce.cpp" "src/kdtree.cpp" "src/looseocttree.cpp" "src/octtree.cpp")

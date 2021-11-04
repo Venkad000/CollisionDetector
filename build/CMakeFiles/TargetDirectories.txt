@@ -1,0 +1,3 @@
+/home/venkad/dsaProject/build/CMakeFiles/edit_cache.dir
+/home/venkad/dsaProject/build/CMakeFiles/rebuild_cache.dir
+/home/venkad/dsaProject/build/CMakeFiles/Collision.dir

@@ -1,0 +1,9 @@
+# ninja log v5
+1	859	1636017445473061019	CMakeFiles/Collision.dir/main.cpp.o	9508394a80521c25
+1	353	1636017444966404117	CMakeFiles/Collision.dir/src/vector.cpp.o	5dfb626b3b6cf119
+1	43	1636017444656410090	CMakeFiles/Collision.dir/src/points.cpp.o	9d12c796a6a62048
+2	526	1636017445139734109	CMakeFiles/Collision.dir/src/sphere.cpp.o	aa6fe767ea5b3246
+859	1011	1636017445626391398	Collision	d29d3d3eac3d043
+2	351	1636017444966404117	CMakeFiles/Collision.dir/src/bruteforce.cpp.o	444efda8cdd56ff5
+1	13	1636019370200284059	CMakeFiles/Collision.dir/src/looseocttree.cpp.o	efdd050a2f25fef4
+1	13	1636019370200284059	CMakeFiles/Collision.dir/src/octtree.cpp.o	d246429d005b639b
