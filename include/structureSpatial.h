@@ -5,12 +5,12 @@
 #include <vector>
 
 namespace Spatial{
-    class structreSpatial{
+    class structureSpatial{
         public:
-            virtual ~structreSpatial();
+            virtual ~structureSpatial() {}
     
         public:
-            virtual void addObjects(const std::vector<objectSpatial*>&refObjects) = 0;
+            virtual void addObjects( std::vector<objectSpatial*>&refObjects) = 0;
 
             virtual void update() = 0;
     };

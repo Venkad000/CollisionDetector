@@ -60,6 +60,7 @@ Vector operator- (threeDimension::Point const&a, threeDimension::Point const&b){
 }
 
 
+
 Vector operator- (twoDimension::Point const &a, twoDimension::Point const&b){
     Vector vec;
     vec.setX(a.x + b.x);
@@ -124,6 +125,46 @@ Vector::Vector(Vector &vec){
     setX(vec.getx());
     setY(vec.gety());
     setZ(vec.getz());
+}
+
+Vector operator- (Vector&a, Vector&b){
+    Vector vec;
+    vec.setX(a.getx() - b.getx());
+    vec.setY(a.gety() - b.gety());
+    vec.setZ(a.getz() - b.getz());
+    return vec;
+}
+
+Vector operator+ (Vector&a, Vector&b){
+    Vector vec;
+    vec.setX(a.getx() + b.getx());
+    vec.setY(a.gety() + b.gety());
+    vec.setZ(a.getz() + b.getz());
+    return vec;
+}
+
+Vector Vector::operator-=(Vector a){
+    Vector vec;
+    vec.setX(a.getx() - this->getx());
+    vec.setY(a.gety() - this->gety());
+    vec.setZ(a.getz() - this->getz());
+    return vec;
+}
+
+Vector Vector::operator+=(Vector a){
+    Vector vec;
+    vec.setX(a.getx() + this->getx());
+    vec.setY(a.gety() + this->gety());
+    vec.setZ(a.getz() + this->getz());
+    return vec;
+}
+
+Vector operator*(Vector a,float f){
+    return(Vector(a.x * f,a.y * f,a.z * f));
+}
+
+Vector operator*(float f,Vector a){
+    return(Vector(a.x * f,a.y * f,a.z * f));
 }
 
 

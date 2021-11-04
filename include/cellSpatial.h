@@ -4,7 +4,7 @@
 namespace Spatial{
     class cellSpatial{
         public:
-            virtual ~cellSpatial();
+            virtual ~cellSpatial() {}
     };
 }
 

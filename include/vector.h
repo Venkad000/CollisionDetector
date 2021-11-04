@@ -14,6 +14,10 @@ class Vector{
         Vector(double x, double y, double z);
         Vector(Vector &vec);
         Vector();
+
+        friend Vector operator - (Vector&a, Vector&b);
+        friend Vector operator + (Vector&,Vector&);
+
         void printVector();
         double getx();
         double gety(); 
@@ -36,6 +40,14 @@ class Vector{
         Vector crossProduct(Vector);
     
         friend Vector operator - (twoDimension::Point const &a, twoDimension::Point &b);
+
+        Vector operator-=(Vector refVector);
+        Vector operator+=(Vector refVector);
+
+        friend Vector operator*(Vector ref,float f);
+        friend Vector operator*(float f,Vector ref);
+
+
 };
 
 #endif
